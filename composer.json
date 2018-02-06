@@ -1,0 +1,32 @@
+{
+  "name": "orchidcommunity/ide-helper",
+  "description": "Helper for hint in PhpStorm",
+  "type": "library",
+  "keywords": [
+    "IDE",
+    "PhpStorm",
+    "Orchid"
+  ],
+  "license": "MIT",
+  "homepage": "https://orchid.software",
+  "support": {
+    "issues": "https://github.com/orchidcommunity/ide-helper/issues",
+    "source": "https://github.com/orchidcommunity/ide-helper"
+  },
+  "authors": [
+    {
+      "name": "Igor Sapegin",
+      "email": "sapegin.in@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "php -r \"copy('vendor/orchidcommunity/ide-helper/dynamicReturnTypeMeta.json.stub', 'dynamicReturnTypeMeta.json');\""
+    ]
+  }
+}
