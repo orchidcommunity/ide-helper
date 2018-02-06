@@ -1,7 +1,7 @@
 {
   "name": "orchidcommunity/ide-helper",
   "description": "Helper for hint in PhpStorm",
-  "type": "library",
+  "type": "package",
   "keywords": [
     "IDE",
     "PhpStorm",
