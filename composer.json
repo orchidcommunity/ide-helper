@@ -25,7 +25,7 @@
     "php": ">=7.0"
   },
   "scripts": {
-    "post-autoload-dump": [
+    "post-package-install": [
       "php -r \"copy('vendor/orchidcommunity/ide-helper/dynamicReturnTypeMeta.json.stub', 'dynamicReturnTypeMeta.json');\""
     ]
   }
